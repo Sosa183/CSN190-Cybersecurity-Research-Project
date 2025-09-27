@@ -1,3 +1,4 @@
+                                                                                                    GitHub Project Research
  Zero-Trust Architecture
 GitHub Project 1 (Pomerium)
 Citation: Pomerium. (2025). Pomerium – identity & context-aware access proxy. GitHub. https://github.com/pomerium/pomerium
@@ -9,16 +10,20 @@ Citation: Pomerium. (2025). Pomerium – identity & context-aware access proxy. 
  Link and Docs: https://github.com/pomerium/pomerium, https://www.pomerium.com/docs/
 
  Relevance: 5/5, Perfect for my ZTA lab: identity-aware policies, quick demos, and apples-to-apples comparisons against a traditional VPN.
+ 
 GitHub Project 2  (OpenZiti)
 Citation: OpenZiti. (2025). OpenZiti – programmable zero-trust overlay. GitHub. https://github.com/openziti/ziti
 
  Type: Framework/platform 
+ 
  Synopsis: When I need ZTA beyond web apps, OpenZiti gives me a full overlay plus SDKs so I can bake access directly into the app. There are controllers, routers, desktop clients, and Helm charts to get moving in K8s. Limitation: bigger learning curve than a single proxy.
 
 Link and Docs: https://github.com/openziti/ziti, https://openziti.io/
+
  Relevance: 5/5, Great complement to Pomerium for end-to-end overlay experiments and ZT-inside-the-app patterns.
 
 AI-Powered Phishing Detection
+
 GitHub Project 1 (Sublime Platform)
 Citation: Sublime Security. (2025). Sublime Platform – open email-security & detections-as-code. GitHub. https://github.com/sublime-security/sublime-platform
 
@@ -26,10 +31,9 @@ Citation: Sublime Security. (2025). Sublime Platform – open email-security & d
 
  Synopsis: This is my go-to for transparent email detections. It uses a simple rule language and open rules for BEC/phishing/malware, which makes testing ideas easy and explainable. It’s a platform, not a single ML model, so integration work is expected.
 
- Link: https://github.com/sublime-security/sublime-platform, https://github.com/sublime-security/sublime-rules 
+ Link and Docs: https://github.com/sublime-security/sublime-platform, https://github.com/sublime-security/sublime-rules
  
  Relevance: 5/5, Perfect sandbox to pair with my ML experiments and measure rule-vs-model tradeoffs.
-
  
 GitHub Project 2 (Malicious URL ML Baseline)
 Citation: Ahmad, F. (2017–2025). Using machine learning to detect malicious URLs. GitHub. https://github.com/faizann24/Using-machine-learning-to-detect-malicious-URLs
@@ -38,8 +42,6 @@ Citation: Ahmad, F. (2017–2025). Using machine learning to detect malicious UR
 
  Synopsis: A solid baseline for URL-only phishing detection: classic features and traditional classifiers. It’s older, but that’s the point, great for reproducing a baseline before I jump to transformers or multimodal setups. Not a full email pipeline.
 
- Link: GitHub - faizann24/Using-machine-learning-to-detect-malicious-URLs
+ Link and Docs: GitHub - faizann24/Using-machine-learning-to-detect-malicious-URLs
 
  Relevance: 5/5, Useful yardstick to prove my newer models actually beat something concrete.
-
-
