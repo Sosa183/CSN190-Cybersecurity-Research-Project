@@ -1,0 +1,14 @@
+Part C: Final Topic Selection
+Zero-Trust lab: I’ll build a small environment with two lightweight web apps, place Pomerium in front for single sign-on using an OIDC provider on Google, write a few least-privilege policies, and test what gets allowed versus what gets blocked. I’ll document setup, show blocked attempts, and record a quick latency snapshot so I’m not just claiming “Zero-Trust” but actually demonstrating it.
+
+Why This Topic
+It’s achievable because it runs locally with Docker and mature docs, no cloud bill, no heavy Kubernetes required. This is meaningful to me because I want blue team platform security skills that align with real-world job requirements. The scope balances feasibility and growth: a clear baseline I can finish in 8–10 weeks, with optional stretch work if time allows.
+
+Three-Tier Plan
+Ambitious Goal: Expand to micro-segmentation using OpenZiti, enforce mTLS end-to-end, add simple device time context checks, stand up a tiny CI step to lint test policy files, ship a Grafana panel for auth outcomes latency, and map my controls to NIST SP 800-207/CISA with a short gap analysis and a 3–5 minute demo video.
+
+Realistic Target: Docker Compose lab with two services behind Pomerium SSO, at least two clear policies that dictate who can access, when/from where screenshots of blocked vs. allowed flows, and a short write-up with a quick latency snapshot and lessons learned.
+Minimum Viable Outcome: One app protected by Pomerium SSO, one allow policy, and one deny policy that I can prove with a scripted test, plus a one-page runbook so a classmate could repeat it.
+
+The Learning Value
+I’ll develop practical skills in OIDC basics, reverse-proxy configuration, TLS, policy-as-code thinking, and evidence-driven testing. Even if I don’t finish the ambitious stretch, attempting this is valuable because I’ll still produce a reproducible lab, show real control behavior, and explain trade-offs clearly. That demonstrates I can design, implement, and communicate security controls, not just follow a tutorial, and it gives me a small, portfolio-ready project aligned to my career goals.
