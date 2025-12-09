@@ -1,0 +1,97 @@
+Albert Sosa
+CSN 190
+Prof. Edwin Reed-Sanchez
+
+Topic Analysis Assignment
+
+ 
+
+Topic 1: Implementation of Zero-Trust Architecture Principles
+
+Initial Interest Level:  9/10 — This corresponds with my focus on the blue team and my interest in automation.  My motivation lies in creating identity-aware, segmented networks that limit blast radius, inhibit lateral movement, and eliminate implicit trust.
+
+Feasibility Assessment
+
+Resources/Tools needed:
+
+• Lab setup: Virtual Box/VMware for local simulation or a minimal AWS/Azure account
+• Access proxy & segmentation: Pomerium/Teleport for identity-aware access; optional Kubernetes + Calico for microsegmentation.
+• Observability & detections: Zeek, Suricata, ELK/OpenSearch; basic SIEM pipeline and alerting.
+• Documentation: diagrams.net for architecture, Word/Markdown for runbooks and reports.
+Current knowledge level: Intermediate: virtualization, fundamental VPNs, concepts of segmentation, and essential blue-team practices from coursework and home labs
+
+What I would need to learn:
+
+• NIST SP 800-207 Zero Trust Architecture pillars and reference models.
+• IdP integrations, policy-as-code patterns.
+• Measuring control effectiveness, writing detections tied to the design.
+Project vs Research Classification
+
+Type: Project-based
+
+Main deliverable: Provide a formal architecture document, threat assessment, and a functional lab prototype demonstrating identity-aware access, least privilege, and microsegmentation; include a test plan, findings, and an operations runbook
+
+Real-World Application
+
+How this addresses current challenges: Addresses credential abuse, lateral movement, and over-privileged access—top drivers of breach impact in hybrid/cloud environments.
+
+Industry need fulfilled: Meets an industry need for practical Zero Trust roadmaps that support remote work, reduce breach blast radius, and align with compliance expectations.
+
+Potential Career Connection
+
+Alignment with my goals: Directly supports goals in network defense and cloud security engineering, building credible portfolio.
+
+Skills I would develop:
+
+• Network architecture & microsegmentation
+• IAM/SSO integration and access proxying
+• Policy-as-code and control validation
+• Logging/monitoring and basic detection engineering
+• Runbook authoring and executive-style reporting
+ 
+ 
+
+ 
+
+ 
+
+Topic 2: AI-Powered Phishing Detection System
+Initial Interest Level: 8/10 — Combines programming with real-world defense. Phishing continues to be a key initial-access method; I aim to create a reliable, understandable detector
+
+Feasibility Assessment
+
+Resources/Tools needed:
+
+• Datasets: labeled phishing vs. benign emails/URLs and safe feature extraction tooling.
+• Tooling: Python, scikit-learn or light models; optional embeddings/transformers; spaCy for NLP preprocessing.
+• Integration: email gateway simulation, URL sandboxing hooks, logging/alerting to emulate SOC workflows.
+• Evaluation: precision/recall, ROC/AUC, confusion matrices; adversarial robustness checks and ablation studies.
+Current knowledge level: Comfortable with Python and data handling; introductory ML knowledge from self-study and labs.
+
+What I would need to learn:
+
+• Feature engineering (headers, lexical/URL features, HTML structure, sender reputation signals).
+• Robust evaluation to avoid leakage/overfitting; data governance and privacy considerations.
+• Operationalization: tuning thresholds, analyst feedback loops, and explainability for trust.
+Project vs Research Classification
+
+Type: Project-based
+
+Main deliverable: Deliver a working prototype with a technical report: data pipeline, model, metrics, ablations, and an operational deployment plan with guardrails.
+
+Real-World Application
+
+How this addresses current challenges: Targets persistent phishing that drives credential theft and ransomware initial access; reduces analyst toil via triage auto-classification.
+
+Industry need fulfilled: Serves industry need for cost-effective, explainable filters that integrate cleanly into existing security tooling.
+
+Potential Career Connection
+
+Alignment with my goals: Builds experience relevant to security engineering and detection/automation roles.
+
+Skills I would develop:
+
+• Python/NLP data pipelines
+• Model evaluation and MLOps hygiene
+• Security product thinking and UX for analysts
+• Detection tuning and continuous improvement
