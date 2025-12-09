@@ -4,7 +4,7 @@
 - I’m interested in Cybersecurity, especially securing cloud and hybrid networks through automation and evidence-based practices. I enjoy building small labs like VirtualBox, VPNs, and segmentation, and studying threat hunting and incident response workflows.
 
 
-Using machine learning to detect malicious URLs,
+## Using machine learning to detect malicious URLs ##
 
 **Author:** Albert Sosa
 **Course:** CSN 190
